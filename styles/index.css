@@ -1,79 +1,86 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container1 {
     background-color: rgb(129, 75, 75);
     border: 10px; color: black;
-    position: relative;
-    width: 60%;
-    min-height: 50%;
+    width: 468px;
+    height: 160px;
     padding: 20px;
     margin: 20px;
     display: flex;
     justify-content: start;
     align-items: flex-end;
-    
-
 }
 
 .container2 {
     background-color: rgb(56, 22, 22);
     border: 10px; color: black;
-    position: relative;
-    width: 60%;
-    min-height: 50%;
+    width: 468px;
+    height: 160px;
     padding: 20px;
     margin: 20px;
     display: flex;
     justify-content: center;
+    align-items: stretch;
     
 }
 
 .container3 {
     background-color: rgb(51, 38, 38);
     border: 10px; color: black;
-    position: relative;
-    width: 60%;
-    min-height: 50%;
+    width: 468px;
+    height: 160px;
     padding: 20px;
     margin: 20px;
     display: flex;
     justify-content: end;
+    align-items: flex-end;
 
 }
 
 .container4 {
     background-color: rgb(236, 75, 75);
     border: 10px; color: black;
-    position: relative;
-    width: 60%;
-    min-height: 50%;
+    width: 468px;
+    height: 160px;
     padding: 20px;
     margin: 20px;
     display: flex;
     justify-content: space-between;
-
+    align-items: flex-start;
+    
 }
+
+
 
 .container5 {
     background-color: rgb(231, 214, 214);
     border: 10px; color: black;
-    position: relative;
-    width: 60%;
-    min-height: 50%;
+    width: 468px;
+    height: 160px;
     padding: 20px;
     margin: 20px;
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
+    
 }
 
 .container6 {
     background-color: rgb(56, 22, 22);
     border: 10px; color: black;
-    position: relative;
-    width: 60%;
-    min-height: 50%;
+    width: 468px;
+    height: 160px;
     padding: 20px;
     margin: 20px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 
@@ -81,9 +88,33 @@
     background-color: aqua;
     border: 5px solid black;
     border-radius: 20px;
-    min-width: 100px;
-    min-height: 100px;
+    min-width: 78px;
+    min-height: 78px;
     margin: 20px;
     display: flex;
+    
+}
+
+.card1 {
+    background-color: aqua;
+    border: 5px solid black;
+    border-radius: 20px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 20px;
+    display: flex;
+    align-self: flex-end;
+    
+}
+
+.card2 {
+    background-color: aqua;
+    border: 5px solid black;
+    border-radius: 20px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 20px;
+    display: flex;
+    flex-grow: 2;
     
 }
